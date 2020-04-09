@@ -1,7 +1,7 @@
 # Fifa Player Wage Analysis
 Football clubs spend a lot in buying players and therefore it becomes important to evaluate player wages based on their abilities. The wages of all the players in association football/soccer in European leagues will be analyzed and a predictive model will be built by considering all the important factors.
 
-## Contributior
+## Contributor
 
 - Soumya Halder (M13246464)
 
