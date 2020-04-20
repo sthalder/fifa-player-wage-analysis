@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Standing tackle <= 83.5\nmse = 409284898.4\nsamples = 2322\nvalue = 11332.0"] ;
+1 [label="Standing tackle <= 73.5\nmse = 221054967.7\nsamples = 2287\nvalue = 9859.6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Dribbling <= 73.5\nmse = 75218181.5\nsamples = 1883\nvalue = 5993.9"] ;
+1 -> 2 ;
+3 [label="mse = 47885853.4\nsamples = 1848\nvalue = 5471.3"] ;
+2 -> 3 ;
+4 [label="mse = 735498520.7\nsamples = 35\nvalue = 35038.5"] ;
+2 -> 4 ;
+5 [label="Sliding tackle <= 76.5\nmse = 506608032.7\nsamples = 404\nvalue = 27826.2"] ;
+1 -> 5 ;
+6 [label="mse = 245453655.5\nsamples = 287\nvalue = 21840.3"] ;
+5 -> 6 ;
+7 [label="mse = 825367540.4\nsamples = 117\nvalue = 40691.5"] ;
+5 -> 7 ;
+8 [label="Agility <= 57.5\nmse = 2954400517.8\nsamples = 35\nvalue = 112557.7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Stamina <= 52.5\nmse = 881515306.1\nsamples = 10\nvalue = 61642.9"] ;
+8 -> 9 ;
+10 [label="mse = 117555555.6\nsamples = 2\nvalue = 18666.7"] ;
+9 -> 10 ;
+11 [label="mse = 448776859.5\nsamples = 8\nvalue = 73363.6"] ;
+9 -> 11 ;
+12 [label="Composure <= 83.5\nmse = 2411163434.9\nsamples = 25\nvalue = 131315.8"] ;
+8 -> 12 ;
+13 [label="mse = 1598816326.5\nsamples = 22\nvalue = 122428.6"] ;
+12 -> 13 ;
+14 [label="mse = 216666666.7\nsamples = 3\nvalue = 235000.0"] ;
+12 -> 14 ;
+}
