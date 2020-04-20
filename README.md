@@ -11,7 +11,11 @@ One of the key factor is deciding player wages. If there is a Ronaldo or Messi i
 
 The dataset will be divided into 4 sections based on the playing positions. They will be goalkeepers, defenders, midfielders and attackers. For each of these positions, the most important feature in deciding player wages will be determined.
 
-Note: The wages mentioned and predicted are all on a weekly level.
+Note: The wages mentioned and predicted are all on a weekly level
+
+## Instructions
+
+Download the entire fifa-player-wage-analysis folder to your local machine to access the project.
 
 ## Contributor
 
