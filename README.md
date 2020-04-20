@@ -15,7 +15,7 @@ Note: The wages mentioned and predicted are all on a weekly level.
 
 ## Contributor
 
-- Soumya Halder (M13246464)
+- Soumya Halder
 
 ## Data Source
 
